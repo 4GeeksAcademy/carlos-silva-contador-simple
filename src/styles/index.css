@@ -1,11 +1,12 @@
-/* 
+.number-clock {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: row;
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+}
+.number-clock div{
+    margin: 10px;
+    border-radius: 10px;
+    padding: 15px 20px;
+}
